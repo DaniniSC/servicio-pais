@@ -1,21 +1,52 @@
 body {
 	font-family: 'Century Gothic';
 }
+a:link {
+	text-decoration:none;
+	color:black;
+}
+a:visited {
+	text-decoration:none;
+	color:black;
+}
+a:active {
+	text-decoration:none;
+	color:black;
+}
+a:hover {
+	text-decoration:underline;
+	color:black;
+}
 header {
 	width: 100%;
 	padding: 50px;
+	margin-bottom: 70px;
 }
 header img {
 	width: 100%;
 	display: block;
 }
-.enlacesHeader {
-	margin-top: 40px;
-	float: right;
+td {
+	padding: 10px;
+	text-align: center;
 }
 .seccionesPrincipales {
-	margin-top: 70px;
+	margin-top: 30px;
+	background: url(../img/fondo.jpg);
 }
 .seccionesPrincipales div {
 	display: inline-block;
+}
+.seccionesPrincipales .col-md-4 {
+	text-align: center;
+	border-radius: 5px;
+}
+footer {
+	display: inline-block;
+}
+.espacioFooter {
+	width: 100%;
+}
+footer img {
+	width: 10%;
 }
