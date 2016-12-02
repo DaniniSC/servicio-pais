@@ -1,0 +1,21 @@
+body {
+	font-family: 'Century Gothic';
+}
+header {
+	width: 100%;
+	padding: 50px;
+}
+header img {
+	width: 100%;
+	display: block;
+}
+.enlacesHeader {
+	margin-top: 40px;
+	float: right;
+}
+.seccionesPrincipales {
+	margin-top: 70px;
+}
+.seccionesPrincipales div {
+	display: inline-block;
+}
