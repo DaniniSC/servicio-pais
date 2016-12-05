@@ -143,6 +143,12 @@ form {
   margin-top: 100px;
   box-shadow:15px 15px 0px rgba(255,255,255,0,3);
 }
+@media (max-width: 600px) {
+  form {
+    width: 100%;
+    margin-left: 15px;
+  }
+}
 
 h1 {
   text-align:center;
