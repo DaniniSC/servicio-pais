@@ -1,0 +1,70 @@
+.fondo-img {
+	background-image:url(../img/fondo.jpg); 
+	background-position: center;
+	background-size: cover;
+
+
+}
+.caja {
+	background-color: black;
+	opacity: 0.6;
+}
+.logo {
+	width:50px;
+	height: 20px;
+}
+h1 {
+	padding-top: 300px;
+	padding-bottom: 10px;
+	color:white;
+	font-family: Century Gothic;
+}
+.subtittle {
+	color:white;
+	font-size: 15px;
+	font-family: Century Gothic;
+	
+}
+.icono {
+	padding-bottom: 200px;
+}
+
+a {
+	font-size: 40px;
+	padding:10px;
+	color:#E0C315;;
+	
+}
+
+#proyectos {
+	background-color: #E0C315;
+	
+}
+.title2 {
+	padding-top: 40px;
+	margin-left: 50px;
+	font-family: Century Gothic;
+	margin-bottom: 50px;
+}
+
+.boxes {
+	border-radius:20px;
+	border:1px solid black;
+	margin:auto;
+	width:200px;
+	height:120px;
+	margin-bottom: 10px;
+}
+
+.boxes1 {
+	margin:5px;
+}
+.regiones {
+	font-family: Century Gothic;
+	padding: 5px;
+	padding-top: 15px;
+}
+
+.leer {
+	font-size: 20px;
+}
