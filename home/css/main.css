@@ -1,52 +1,242 @@
 body {
 	font-family: 'Century Gothic';
+	text-decoration:none;
 }
+
 a:link {
 	text-decoration:none;
-	color:black;
 }
+
 a:visited {
 	text-decoration:none;
-	color:black;
 }
+
 a:active {
 	text-decoration:none;
-	color:black;
 }
+
 a:hover {
-	text-decoration:underline;
-	color:black;
+	text-decoration:none;
 }
+
 header {
 	width: 100%;
 	padding: 50px;
 	margin-bottom: 70px;
 }
+
 header img {
 	width: 100%;
 	display: block;
 }
-td {
+
+td{ 
 	padding: 10px;
 	text-align: center;
 }
-.seccionesPrincipales {
-	margin-top: 30px;
-	background: url(../img/fondo.jpg);
-}
-.seccionesPrincipales div {
-	display: inline-block;
-}
-.seccionesPrincipales .col-md-4 {
-	text-align: center;
-	border-radius: 5px;
-}
-footer {
-	display: inline-block;
-}
+
 .espacioFooter {
 	width: 100%;
 }
-footer img {
-	width: 10%;
+
+
+
+/*Emely Arellano heder-nav*/
+
+.logo-red{
+	width:8%;
+	position: relative;
+	bottom:35px;
+	left: 90%;
+}
+.navbar {
+    position: relative;
+    min-height: 30px;
+    margin-bottom: -30px;
+    border: 1px solid transparent;
+    font-size:16px;
+}
+.navbar {
+    border-radius: 0px;
+}
+
+.sub-menu{
+    color: #ffffff;
+    font-size:20px;
+}
+
+.of-laborales{
+	background-color:#F1CC23;
+	text-align:center;
+	height: 50px;
+	padding-top:10px;
+	-webkit-transition: all 9ms ease-out;
+	-moz-transition: all 9ms ease-out;
+	-ms-transition: all 9ms ease-out;
+	-o-transition: all 9ms ease-out;
+	transition: all 9ms ease-out;
+	animation: volar 3 800ms;
+}
+
+.of-laborales:hover{
+	background-color:#FFCF03;
+	font-size:25px;
+	height: 55px;
+}
+.f-continua{
+	background-color:#6BBF18  ;
+	text-align:center;
+	color:#ffffff;
+	height: 50px;
+	padding-top:10px;
+	-webkit-transition: all 6ms ease;
+	-moz-transition: all 6ms ease;
+	-ms-transition: all 6ms ease;
+	-o-transition: all 6ms ease;
+	transition: all 6ms ease;
+	animation: volar 3 800ms;
+}
+
+.f-continua:hover{
+	background-color:#7DCE20;
+	font-size:25px;
+	height: 55px;
+}
+
+.a-intervenciones{
+	background-color:#0877AE;
+	text-align:center;
+	color:#ffffff;
+	height: 50px;
+	padding-top:10px;
+	-webkit-transition: all 6ms ease;
+	-moz-transition: all 6ms ease;
+	-ms-transition: all 6ms ease;
+	-o-transition: all 6ms ease;
+	transition: all 6ms ease;
+	animation: volar 6 800ms;
+}
+
+.a-intervenciones:hover{
+	background-color:#0C89BA;
+	font-size:25px;
+	height: 55px;
+}
+
+
+/*Mi portal*/
+.box {
+	width:60%;
+    background-color: #009FE3;
+    padding: 16px;
+    border-radius: 4px;
+    margin-top: 10%;
+    margin-left: 250px;
+}
+
+.logo-blanco{
+	width:25%;
+	margin:10px;
+}
+.form-inline{
+	margin:20px 0px 0px 20px;
+}
+
+.stripe{
+	background-color: #00679B;
+	height:10px;
+	margin-bottom:10px;
+	border-radius: 4px;
+}
+
+.checkbox-form{
+	margin-left: 20px
+}
+/*Emely Arellano iconos-Footer*/
+
+.footer{
+	background-color:#F9A30A;
+	width: 100%;
+	text-align: center;
+	padding:20px;
+
+}
+
+.siguenos{
+	color: #ffffff;
+	text-align:center;
+	
+}
+.redes-siciales{
+	display: inline-block;
+	padding:20px;
+}
+
+.fa-facebook-square{
+	 font-size: 40px;
+	 color:#ffffff;
+	
+}
+
+.fa-twitter-square{
+	font-size: 40px;
+	color:#ffffff;
+}
+
+.fa-flickr{
+ 	font-size: 40px;
+ 	color:#ffffff;
+ 
+}
+
+.fa-youtube-play{
+ 	font-size: 40px;
+ 	color:#ffffff;
+ 	padding:0px;
+}
+.fa-vimeo-square{
+	font-size: 40px;
+ 	color:#ffffff;
+ 	padding:0px;
+}
+
+@media screen and (max-width: 412px) { 
+	.navbar {
+    position: relative;
+    min-height: 30px;
+    margin-bottom: 2px;
+    border: 1px solid transparent;
+    font-size: 16px;
+}
+
+.sub-menu{
+    color: #ffffff;
+    font-size:15px;
+}
+.sub-menu:hover{
+    color: #ffffff;
+    font-size:15px;
+}
+	.of-laborales, .f-continua, .a-intervenciones{
+	font-size:10px;
+	height: 70px;
+	}
+	.of-laborales:hover{
+	background-color:#FFCF03;
+	font-size:12px;
+	height: 75px;
+}
+.f-continua:hover{
+	background-color:#7DCE20;
+	font-size:10px;
+	height: 75px;
+}
+.a-intervenciones:hover{
+	background-color:#0C89BA;
+	font-size:10px;
+	height: 75px;
+}
+.logo-red{
+	display:none;
+}
 }

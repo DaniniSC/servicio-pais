@@ -4,28 +4,43 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
-	<title></title>
 </head>
 <body>
-	<div class="container-fluid">
-		<header>
-			<div class="col-xs-5 col-sm-5 col-md-3">
-				<img src="img/logo.png">
-			</div>
-			<table class="col-xs-7 col-sm-7 col-md-9 enlacesHeader">
-				<tr>
-					<td>Ofertas laborales</td>
-					<td>Formación continua</td>
-					<td>Apoyo a intervenciones</td>
-				</tr>
-				<tr>
-					<td>Testimonios</td>
-					<td>Fotos</td>
-					<td>Videos</td>
-				</tr>
-			</table>
+	<nav class="navbar navbar-default">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+    		</div>
+    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav nav-pills">
+				  	<li role="presentation"><a href="#">Home</a></li>
+				  	<li role="presentation" ><a href="file:///C:/Users/Administrador/Desktop/servicio-p/servicio-pais/home/home.html">Mi portal</a></li>
+				  	<li class="dropdown">
+          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+         				<ul class="dropdown-menu">
+            				<li><a href="#">Testimonios</a></li>
+            				<li><a href="#">Fotos</a></li>
+            				<li><a href="#">Videos</a></li>
+            				<li role="separator" class="divider"></li>
+            				<li><a href="#">Ofertas laborales</a></li>
+            				<li><a href="#">Formación continua</a></li>
+            				<li><a href="#">Apoyo a intervenciones</a></li>
+          				</ul>
+        			</li>
+        			<li class="navbar-left"><img class="logo-red" src="img/LOGORed de egresadis.png"></li>
+				</ul>
+   			</div><!-- /.navbar-collapse -->
+  		</div><!-- /.container-fluid -->
+	</nav>
 			<!--<div class="col-xs-5 col-sm-5 col-md-3">
 				<img src="img/logo.png">
 			</div>
@@ -44,11 +59,10 @@
 			</div>-->
 		</header>
 		<section class="seccionesPrincipales">
-			<div class="col-xs-12 col-sm-12 col-md-4"><a name="ofertasLaborales"><h3>Ofertas laborales</h3></a></div>
-			<div class="col-xs-12 col-sm-12 col-md-4"><a name="formacionContinua"><h3>Formación continua</h3></a></div>
-			<div class="col-xs-12 col-sm-12 col-md-4"><a name="apoyoIntervenciones"><h3>Apoyo a intervenciones</h3></a></div>
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12"></div>
+				<div class="col-xs-4 col-sm-12 col-md-4 of-laborales"><a class="sub-menu" name="ofertasLaborales">Ofertas laborales</a></div>
+				<div class="col-xs-4 col-sm-12 col-md-4 f-continua"><a class="sub-menu" name="formacionContinua">Formación continua</</a></div>
+				<div class="col-xs-4 col-sm-12 col-md-4 a-intervenciones"><a class="sub-menu" name="apoyoIntervenciones a-intervenciones">Apoyo a intervenciones</a></div>
 			</div>
 		</section>
 		<section>
@@ -60,20 +74,26 @@
 		<section>
 			<a name="videos"><h2>Videos</h2></a>
 		</section>
-		<footer>
+		<footer class="footer">
 			<div>
-				<div class="espacioFooter col-xs-offset-0 col-sm-offset-0 col-md-offset-6"></div>
-				<div class="col-xs-2 col-sm-2 col-md-1">
-					<p>Síguenos</p>
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					<strong class="siguenos">Síguenos a través de nuestras redes</strong>
 				</div>
-				<div class="col-xs-12 co-sm-12 col-md-5">
-					<a href="https://twitter.com/serviciopais"><img src="img/twitter.png" alt=""></a>
-					<a href="https://www.facebook.com/superarpobreza"><img src="img/facebook.png" alt=""></a>
-					<a href="https://www.flickr.com/photos/119679384@N04/"><img src="img/flickr.png" alt=""></a>
-					<a href="https://vimeo.com/superacionpobreza/"><img src="" alt="img/vimeo.png"></a>
-					<a href="https://www.youtube.com/playlist?list=PLG4wFQeSh0dsJu_nx34uIN189-V-gskK0"><img src="img/youtube.png" alt=""></a>
+				<div class="redes-siciales">
+					<a href="https://twitter.com/serviciopais"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 				</div>
-			</div>
+				<div class="redes-siciales">
+					<a href="https://www.facebook.com/superarpobreza"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				</div>
+				<div class="redes-siciales">
+					<a href="https://www.flickr.com/photos/119679384@N04/"><i class="fa fa-flickr" aria-hidden="true"></i></a>
+				</div>
+				<div class="redes-siciales">
+					<a href="https://vimeo.com/superacionpobreza/"><i class="fa fa-vimeo-square" aria-hidden="true"></i></a>
+				</div>
+				<div class="redes-siciales">
+					<a href="https://www.youtube.com/playlist?list=PLG4wFQeSh0dsJu_nx34uIN189-V-gskK0"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+				</div>
 		</footer>
 	</div>
 	<script type='text/javascript' src='../js/jquery-3.1.1.min.js'></script>
