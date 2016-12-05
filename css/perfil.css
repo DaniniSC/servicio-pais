@@ -1,24 +1,25 @@
-.container-form{
-	background-color: #0AB09E;
-}
 
+/*CSS PERFIL*/
+*{
+	font-family: "Century Gothic";
+}
 .row {
 	margin-left: 25%;
 }
-/*CSS PERFIL*/
 .wp-image-605{
-	margin-top: 10px;
-	margin-bottom: 50px;
-	margin-right: 144px;
+	margin-top: 15px;
+	margin-bottom: 40px;
+	margin-right: 300px;
 	width: 180px; 
 	height: 200px;
 }
 .title h1{
-	font-family: 'PT Sans', sans-serif;
-
+	font-family: 'century Gothic';
+	color: white;
+	margin-top: 180px;
 }
-.inteParra{
-	font-family: 'PT Sans', sans-serif;
+.intParra{
+	font-family: 'Century Gothic';
 	font-size: 20px;
 	text-align: center;
 	margin-top: 5px;
@@ -32,5 +33,23 @@
 }
 textarea {
 	width: 100%;
+}
+.next {
+    background-color: #D7232C;
+    border: 2px solid #D7232C;
+    font-family: 'Century Gothic';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+}
+.omitir{
+	background-color: #D7232C;
+    border: 2px solid #D7232C;
+    font-family: 'century Gothic';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
 }
 /*RESPONSIVE PERFIL*/
