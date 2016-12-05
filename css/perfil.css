@@ -1,0 +1,36 @@
+.container-form{
+	background-color: #0AB09E;
+}
+
+.row {
+	margin-left: 25%;
+}
+/*CSS PERFIL*/
+.wp-image-605{
+	margin-top: 10px;
+	margin-bottom: 50px;
+	margin-right: 144px;
+	width: 180px; 
+	height: 200px;
+}
+.title h1{
+	font-family: 'PT Sans', sans-serif;
+
+}
+.inteParra{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 5px;
+}
+.areainteres{
+	margin-top: 20px;
+	margin-right: 80px;
+}
+.form-control{
+	margin-top: 20px;
+}
+textarea {
+	width: 100%;
+}
+/*RESPONSIVE PERFIL*/
