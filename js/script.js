@@ -70,5 +70,7 @@ function scaleBannerVideoSize(element){
 
     setInterval(function(){
         $('.formulario').fadeIn('slow');
-    }, 1000);
+    }, 1500);
+    
 }
+

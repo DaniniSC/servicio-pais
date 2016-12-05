@@ -1,20 +1,35 @@
+.row{
+  margin: 0 !important;
+  }
+.capa{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top:0;
+  background-color: rgba(0,0,0,0.4);
+  margin: 0;
+  padding: 0;
+}
 .header1{
 /*    background: rgba(255,255,255,0.14);*/
     position: absolute;
     z-index: 4;
 }
 .header1 img{
-    margin: 18px;
-    width: 70%;
+    padding: 18px;
+    width: 100%;
+    opacity: 100;
+    z-index: 10;
 }
 .frase{
-    margin-top: 26px;
+    padding-top: 26px;
 }
 .frase span{
-  font-family: 'Yesteryear', cursive; 
-  color: white;
+  font-family: 'Leckerli One', cursive;
+  letter-spacing: 3px;
+  color: #fff;
   padding: 10px;
-  font-size: 58px;
+  font-size: 37px;
 }
 .homepage-hero-module {
     border-right: none;
@@ -33,29 +48,29 @@
     position: relative;
     bottom: 0%;
     left: 0%;
-    height: 120%;
+    height: 100vh;
     width: 100%;
     overflow: hidden;
-    background: #000;
+/*    background: #000;*/
 }
 .video-container .poster img {
-    width: 100%;
+    width: 150%;
     bottom: 0;
     position: absolute;
 }
-.video-container .filter {
+/*.video-container .filter {
     z-index: 100;
     position: absolute;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.8);
     width: 100%;
-}
+}*/
 .video-container video {
     position: absolute;
     z-index: 0;
     bottom: 0;
 }
 .video-container video.fillWidth {
-    width: 120%;
+    width: 150% ;
 }
 input:focus, 
 textarea:focus {
@@ -107,7 +122,7 @@ a:hover {
 h5 {
   text-align:center;
   margin-top:5px;
-  color:rgba(0,0,0,.3);
+  color:rgba(0,0,0,.7);
 }
 
 h5 > a,a:visited {
@@ -120,20 +135,25 @@ h5 > a:hover {
 }
 
 form {
-  background:rgba(255,255,255,0.2);
+  background:rgba(255,255,255,0.6 );
   border-radius:6px;
-  padding:20px;
-  padding-top:30px;
+  padding:10px;
+  padding-top:20px;
   width:300px;
-  margin-top: 110px;
-  box-shadow:15px 15px 0px rgba(255,255,255,0,4);
+  margin-top: 100px;
+  box-shadow:15px 15px 0px rgba(255,255,255,0,3);
+}
+@media (max-width: 600px) {
+  form {
+    width: 100%;
+    margin-left: 15px;
+  }
 }
 
 h1 {
   text-align:center;
   font-size:1.4em;
   font-weight:700;
-  color:#ccc;
   margin-bottom:24px;
 }
 
@@ -154,8 +174,8 @@ input {
 .btn {
   position:relative;
   width:100%;
-  padding:20px;
-  border-radius:6px;
+  padding:10px;
+  border-radius:8px;
   border:0;
   background:#f26964;
   font-size:1.2em;
@@ -171,8 +191,8 @@ input {
 
 h6 {
   text-align:center;
-  padding:20px;
-  padding-top:35px;
+/*  padding:20px;*/
+/*  padding-top:35px;*/
   color:white;
   font-size: 20px;
   cursor:pointer;
@@ -204,3 +224,7 @@ h6 {
     top: 28px;
     right: 12%;    
 }
+ h1 span{
+  color: #363636;
+  font-weight: bolder;
+ }
